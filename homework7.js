@@ -15,4 +15,8 @@ console.log(re.test("Happiness"));
 console.log(re.test("Joyful"));
 console.log(re.test("Time"));
 console.log(re.test("Task"));
-console.log(re.test("Apple"));*/
+console.log(re.test("Apple"));
+
+також знайшла варіант такої регулярки, але ми не вчили \b, тому зробила так як вище 
+var re = /\b[^aA\s,]{6,}\b/g
+console.log(str.match(re))*/
